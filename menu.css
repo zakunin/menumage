@@ -1,0 +1,164 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.zakunin.org
+Copyright (c) 2012- zakunin.org. All rights reserved.
+
+This stylesheet and the associated (x)html are realeased under creative
+common license, attribution-non commercial-share alike 3.0. You can 
+modify these files in any way to fit your requirements.
+
+If you want to use this work with different rules, please contact:
+andrea@zakunin.org
+=================================================================== */
+
+a{
+text-decoration:none;
+color:white;
+}
+a:visited{
+text-decoration:none;
+color:white
+}
+a:hover{
+text-decoration:none;
+color:white;
+}
+
+li {
+display:inline;
+padding:10px;
+margin-top:100px;
+border: 1px solid #CCCCCC;
+}
+/*p {
+font-size: 20px;
+color: #FFFFFF;
+position: absolute;
+top:0;
+margin:0;
+background-color: #CCCCCC;
+}*/
+
+#tendina {
+background-image: url('books-1924.jpg');
+background-repeat: no-repeat;
+position:relative;
+width:302px;
+height:60px;
+border:2px solid #CCCCCC;
+
+transition-property: height;
+transition-duration: 0s;
+
+-webkit-transition-property: height;
+        -webkit-transition-duration: 1s;
+        
+        -o-transition-property: height;
+        -o-transition-duration: 1s;
+        
+        -moz-transition-property: height;
+        -moz-transition-duration: 1s;
+        
+        -ms-transition-property: height;
+        -ms-transition-duration: 1s;
+}
+
+#tendina:hover {
+background-image: url('books-1924.jpg') ;
+background-repeat: no-repeat;
+height: 212px;
+}
+
+a#tendina {
+text-decoration: none;
+border:1px solid #666;
+}
+
+#tendina2 {
+background-image: url('cat.jpg');
+background-repeat: no-repeat;
+width:302px;
+height:60px;
+border:2px solid #CCCCCC;
+
+transition-property: height;
+transition-duration: 1s;
+
+-webkit-transition-property: height;
+        -webkit-transition-duration: 1s;
+        
+        -o-transition-property: height;
+        -o-transition-duration: 1s;
+        
+        -moz-transition-property: height;
+        -moz-transition-duration: 1s;
+        
+        -ms-transition-property: height;
+        -ms-transition-duration: 1s;
+}
+
+#tendina2:hover {
+background-image: url('cat.jpg') ;
+background-repeat: no-repeat;
+height: 212px;
+}
+
+#tendina3 {
+background-image: url('grattacielo.jpg');
+background-repeat: no-repeat;
+width:302px;
+height:60px;
+border:2px solid #CCCCCC;
+
+transition-property: height;
+transition-duration: 1s;
+
+-webkit-transition-property: height;
+        -webkit-transition-duration: 1s;
+        
+        -o-transition-property: height;
+        -o-transition-duration: 1s;
+        
+        -moz-transition-property: height;
+        -moz-transition-duration: 1s;
+        
+        -ms-transition-property: height;
+        -ms-transition-duration: 1s;
+}
+
+#tendina3:hover {
+background-image: url('grattacielo.jpg') ;
+background-repeat: no-repeat;
+height: 212px;
+}
+
+#tendina4 {
+background-image: url('sev.png');
+background-repeat: no-repeat;
+width:302px;
+height:60px;
+border:2px solid #CCCCCC;
+
+transition-property: height;
+transition-duration: 1s;
+
+-webkit-transition-property: height;
+        -webkit-transition-duration: 1s;
+        
+        -o-transition-property: height;
+        -o-transition-duration: 1s;
+        
+        -moz-transition-property: height;
+        -moz-transition-duration: 1s;
+        
+        -ms-transition-property: height;
+        -ms-transition-duration: 1s;
+}
+
+#tendina4:hover {
+background-image: url('sev.png') ;
+background-repeat: no-repeat;
+height: 212px;
+}
